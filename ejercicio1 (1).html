@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Alertas en Javascript</title>
+<script>
+    function PromptDemo() {
+         //El usuario ingresa una pregunta
+         var Musica = prompt("¿Que Musica te gusta?", "");
+	 //Verificamos si el usuario ingresó un valor
+	 if (Musica != null){
+	 alert("Tu Musica favorita es " + Musica);
+}
+//Verificamos si el usuario no ingresó un valor
+else {
+alert("No has ingresado ningún Musica");
+
+  }
+
+}
+
+</script>
+</head>
+<!-- Esto es una página web no completa para escribir javascript -->
+<body>
+
+<input type="button" onclick="PromptDemo();" value="verificar"/>
+
+</body>
+</html>
+
